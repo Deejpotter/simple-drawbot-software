@@ -21,8 +21,8 @@ A desktop application that converts drawings, text, and images into G-code for C
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/gcode-generator.git
-   cd gcode-generator
+   git clone https://github.com/Deejpotter/simple-drawbot-software.git
+   cd simple-drawbot-software
    ```
 
 2. Create and activate a virtual environment:
@@ -40,6 +40,11 @@ A desktop application that converts drawings, text, and images into G-code for C
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
+   
+4. Update dependencies file if needed:
+   ```bash
+   pip freeze > requirements.txt
    ```
 
 ## Usage
@@ -101,7 +106,5 @@ pytest
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+PySide6 is licensed under the LGPL-3.0 License.
 
-- Thanks to all contributors
-- Inspired by the maker community
