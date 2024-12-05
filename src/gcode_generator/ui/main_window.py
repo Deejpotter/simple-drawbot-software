@@ -29,7 +29,7 @@ class MainWindow(QMainWindow):
     """
     This is the main application window that holds all other widgets.
     I'm using QMainWindow as the base class because it provides a lot of built-in functionality.
-    Reference: https://doc.qt.io/qt-6/qmainwindow.html#public-functions
+    Reference: https://doc.qt.io/qtforpython-6/PySide6/QtWidgets/QMainWindow.html#pyside6-qtwidgets-qmainwindow
     """
     def __init__(self):
         super().__init__()
@@ -82,7 +82,7 @@ class MainWindow(QMainWindow):
         edit_menu.addAction("Undo")
         edit_menu.addAction("Redo")
 
-        # View menu with grid toggle functionality
+        # View menu with grid toggle functionality.
         view_menu = menubar.addMenu("View")
         toggle_grid_action = QAction("Toggle Grid", self)
         toggle_grid_action.triggered.connect(self.canvas.toggle_grid)
