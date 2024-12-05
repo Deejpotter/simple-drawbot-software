@@ -101,7 +101,5 @@ pytest
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+PySide6 is licensed under the LGPL-3.0 License.
 
-- Thanks to all contributors
-- Inspired by the maker community
